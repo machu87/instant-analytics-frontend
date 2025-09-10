@@ -17,7 +17,7 @@ npm run build
 npm run preview
 ```
 
-## Docker (producción)
+## Docker (local)
 ```bash
 docker build -t instant-analytics-web --build-arg VITE_API_URL=http://localhost:8000 .
 docker run -p 8080:80 instant-analytics-web
